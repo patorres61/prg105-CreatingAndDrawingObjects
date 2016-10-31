@@ -10,16 +10,26 @@ world = World()
 
 # define classes for point, circle, and rectangel
 # noinspection PyPep8
-class Point: """defines a point in 2 dimensional space
+class Point:
+    """defines a point in 2 dimensional space
             """
+    def __init__(self):
+        pass
 
 
 # noinspection PyPep8
-class Circle: """defines a circle"""
+class Circle:
+    """defines a circle"""
+    def __init__(self):
+        pass
 
 
 # noinspection PyPep8
-class Rectangle: """defines a rectangle"""
+class Rectangle:
+    """defines a rectangle"""
+    def __init__(self):
+        pass
+
 
 # define  a canvas
 canvas = world.ca(width=1000, height=1000, background='linen')
